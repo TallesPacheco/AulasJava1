@@ -1,0 +1,8 @@
+0.5 → Boas práticas [”código em Inglês”, “endentação”, “nome de variáveis e funções”]
+
+1.0 → CRUD com banco de dados.
+
+0.5 → Consumir uma Api [ VIA CEP ] https://viacep.com.br/
+
+Preciso fazer algum cadastro, que o mesmo reflita no banco de dados, e quando chegar a parte do endereço,
+coloque meu cep e ele traga as informacãoes do meu endereço.

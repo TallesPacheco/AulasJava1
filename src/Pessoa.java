@@ -5,6 +5,19 @@ public class Pessoa {
     private String endereco;
     private Integer idade;
 
+    private String cpf;
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        if(cpf.length() < 11 ){
+            throw new RuntimeException("Cpf menor que 11 caracteres");
+        }
+        this.cpf = cpf;
+    }
+
     public Integer getCodigo() {
         return codigo;
     }
@@ -34,6 +47,11 @@ public class Pessoa {
     }
 
     public void setIdade(Integer idade) {
+        if(idade < 0){
+            throw new ArithmeticException("Idade não pode ser menor que zero");
+        } else if(idade > 120){
+            throw new ArithmeticException("Idade não pode ser maior que 120");
+        }
         this.idade = idade;
     }
 

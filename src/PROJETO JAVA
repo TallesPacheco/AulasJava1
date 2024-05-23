@@ -1,0 +1,14 @@
+
+
+
+
+Regras [
+- Todos os assuntos vistos em sala
+- Projeto deve condizer com a realidade
+- Menu de navegação [ Scanner ou JoptionPane ]
+- CRUD [ - Devo conseguir me cadastrar como cliente
+         - escolhendo restaurante,
+         - fazer um pedido,
+         - escolher a forma de pagamento
+         - e ver o resumo do meu pedido
+        ]
